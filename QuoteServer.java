@@ -8,7 +8,10 @@ public class QuoteServer{
 
 public static void main(String [] args) throws IOException{
 
-String quotes[] = {"Padh le!....","Dusro ko bhi padne de!...","Apna pad!...","Chal ja yrr!...","A tu ja re!...","Kem Palty","chal ja!...","Bhag be yaha se!..."};
+String quotes[] = {"THE TIME IS ALWAYS RIGHT TO DO WHAT IS RIGHT.\n \t\t MARTIN LUTHER KING,JR.","IF YOU WANT TO LIVE A HAPPY LIFE, TIE IT TO A GOAL, NOT TO PEOPLE OR THINGS. \n \t\t ALBERT EINSTEIN","THE BEST WAY TO PREDICT FUTURE IS TO CREATE IT.\n \t \t ABRAHAM LINCOLN","I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.\ n \t \t 
+Neil Armstrong","Never let the fear of striking out keep you from playing the game.”
+\n \t \t Babe Ruth","I can accept failure, everyone fails at something. But I can’t accept not trying.”
+\n \t \t Michael Jordan","Spread love everywhere you go. Let no one ever come without leaving happier.” \ n \t \t MOTHER TERESA"};
 
 // Step 1: Create a UDP Server, datagram means packets
 DatagramSocket server = new DatagramSocket(5555);// This  is UDP Server, INT PARAMETERIZED CONSTRUCTOR, socketexception
